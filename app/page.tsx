@@ -4,8 +4,8 @@ import { useState } from "react";
 import { 
   Mail, 
   ArrowRight, 
-  Linkedin, 
-  Github, 
+  Link, 
+  Code, 
   Apple, 
   Gamepad2, 
   Music,
@@ -33,7 +33,7 @@ export default function Portfolio() {
 
   const games = [
     {
-      title: "Musicality Beats",
+      title: "Beatstar",
       description: "A high-octane mobile rhythm game that challenges your reflexes and musical timing.",
       platform: "Mobile (iOS & Android)",
       status: "Released",
@@ -82,7 +82,7 @@ export default function Portfolio() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-neon-purple opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-neon-purple"></span>
             </span>
-            <span className="text-[10px] font-bold uppercase tracking-widest text-neon-purple">Now Live: Musicality Beats</span>
+            <span className="text-[10px] font-bold uppercase tracking-widest text-neon-purple">Now Live: Beatstar</span>
           </div>
           
           <h1 
@@ -203,13 +203,13 @@ export default function Portfolio() {
               <div className="grid grid-cols-2 gap-4">
                 <a href="https://www.linkedin.com/company/zeroglitch-studio/" className="flex items-center gap-4 p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-neon-purple/10 hover:border-neon-purple/30 transition-all group">
                   <div className="p-2 rounded-lg bg-white/5 group-hover:bg-neon-purple/20 transition-colors">
-                    <Linkedin className="w-5 h-5" />
+                    <Link className="w-5 h-5" />
                   </div>
                   <span className="font-medium">LinkedIn</span>
                 </a>
                 <a href="https://github.com/ZeroGlitch-Studio" className="flex items-center gap-4 p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-neon-purple/10 hover:border-neon-purple/30 transition-all group">
                   <div className="p-2 rounded-lg bg-white/5 group-hover:bg-neon-purple/20 transition-colors">
-                    <Github className="w-5 h-5" />
+                    <Code className="w-5 h-5" />
                   </div>
                   <span className="font-medium">GitHub</span>
                 </a>

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ZeroGlitch Studio | Precision Gaming",
-  description: "A professional game development studio building cross-platform, ad-minimal experiences in Unity. Creators of Musicality Beats.",
+  description: "A professional game development studio building cross-platform, ad-minimal experiences in Unity. Creators of Beatstar.",
 };
 
 export default function RootLayout({
